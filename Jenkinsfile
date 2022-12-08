@@ -21,5 +21,8 @@ pipeline{
                 sh 'lscpu'
             }
         }
+        stage('5- who is running'){
+            sh 'whoami'
+        }
     }
 }
