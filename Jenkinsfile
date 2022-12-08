@@ -2,7 +2,7 @@ Pipeline{
     angent any{
         stages{
             stage('1-repobuild'){
-                step{
+                steps{
                     sh "df -h"
                 }
             }
