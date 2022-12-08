@@ -1,5 +1,5 @@
 Pipeline{
-    angent any
+    angent any{
         stages{
             stage('1-repobuild'){
                 step{
@@ -7,4 +7,5 @@ Pipeline{
                 }
             }
         }
-        }
+    }
+}
