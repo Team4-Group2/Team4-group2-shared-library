@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('1-clone the repo'){
             steps{
-                sh 'action1'
+                sh 'ps -ef'
             }
         }
         stage('2-systemcheck'){
