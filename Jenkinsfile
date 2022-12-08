@@ -11,5 +11,15 @@ pipeline{
                 sh 'df -h'
             }
         }
+        stage('3-system memory'){
+            steps{
+                sh 'sudo free -m'
+            }
+        }
+        stage('4-check cpu information'){
+            steps{
+                sh 'lscpu'
+            }
+        }
     }
 }
